@@ -4,7 +4,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 
-import { TabsPageRoutingModule } from './tabs.router.module';
+import { AppPageRoutingModule } from '../apps.router.module';
 
 import { TabsPage } from './tabs.page';
 
@@ -13,7 +13,7 @@ import { TabsPage } from './tabs.page';
     IonicModule,
     CommonModule,
     FormsModule,
-    TabsPageRoutingModule
+    AppPageRoutingModule
   ],
   declarations: [TabsPage]
 })

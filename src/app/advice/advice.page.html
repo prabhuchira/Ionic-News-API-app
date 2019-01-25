@@ -1,0 +1,20 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>advice</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+    <ion-card *ngFor = "let advice of arr" (click)=gotopage(advice)>
+        <ion-card-header>
+          
+        <ion-card-subtitle>{{advice.slip.advice}}</ion-card-subtitle>
+          <!-- <ion-card-title>{{article.title}}</ion-card-title> -->
+        </ion-card-header>
+      
+
+       
+      </ion-card>
+
+
+</ion-content>
